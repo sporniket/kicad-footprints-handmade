@@ -29,6 +29,11 @@ Most are created from the ground up, some are originally builtin footprints from
 
 E.g. the footprint for non-standard sub-d 19 pins connector is created from a sub-d 25pins footprint, edited to keep 19 pins and the big vias for the connector posts beeing adjusted, and remove the drawings that do not fit anymore.
 
+Another example, I just renamed the pin name '0' into 'SH' to match the pin names of the builtins symbols of Kicad for generic shielded connectors.
+
+* _commons-xxx_ libraries are footprints for standard components, like resistors and SIMM memory modules.
+* _atari-xxx_ libraries are footprints for components found specifically inside computers and game consoles manufactured by a company named 'Atari' during the period 1970~2000 (approximative). The 'Atari' brand of this manufacturer company is still alive to this day, not the company that manufactured said game consoles and computers.
+
 > Do not use **Sporniket's handmade footprints for Kicad** if this project is not suitable for your project.
 
 ## 3. How to use **Sporniket's handmade footprints for Kicad** ?
