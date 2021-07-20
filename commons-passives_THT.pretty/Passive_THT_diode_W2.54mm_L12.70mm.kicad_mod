@@ -1,4 +1,4 @@
-(module Passive_THT_diode_W2.54mm_L12.70mm (layer F.Cu) (tedit 60E184AF)
+(module Passive_THT_diode_W2.54mm_L12.70mm (layer F.Cu) (tedit 60F5CA7F)
   (descr "THT diode, width 100mils, lead vias 500mils apart")
   (tags "axial diode tht")
   (fp_text reference REF** (at -5.715 -1.27) (layer F.SilkS)
@@ -21,4 +21,9 @@
   (fp_line (start -0.635 -0.635) (end -0.635 0.635) (layer F.SilkS) (width 0.12))
   (pad 1 thru_hole rect (at -6.35 0) (size 1.27 1.778) (drill 0.762) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 6.35 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-34_SOD68_P12.70mm_Horizontal.wrl
+    (offset (xyz -6.2484 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
