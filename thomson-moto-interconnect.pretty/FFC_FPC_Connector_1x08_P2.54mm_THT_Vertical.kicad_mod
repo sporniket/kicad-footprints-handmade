@@ -42,14 +42,14 @@
     (stroke (width 0.3) (type solid)) (fill none) (layer "F.SilkS") (tstamp 395f46a0-c895-4da4-884e-5e1f0c7b2594))
   (fp_poly
     (pts
-      (xy -3.25 -4.25)
+      (xy -3.25 -4.1484)
       (xy -3.25 -2.75)
       (xy -1.75 -2.75)
       (xy -1.75 20.25)
       (xy -3.25 20.25)
-      (xy -3.25 21.75)
-      (xy 3.75 21.75)
-      (xy 3.75 -4.25)
+      (xy -3.25 21.6484)
+      (xy 3.75 21.6484)
+      (xy 3.75 -4.1484)
     )
 
     (stroke (width 0.12) (type solid)) (fill none) (layer "F.CrtYd") (tstamp a74f06ed-1494-4043-a065-c5469e21551b))
